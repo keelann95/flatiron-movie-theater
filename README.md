@@ -81,7 +81,7 @@ To use this repo, follow these steps:
 2. Open the index.html file in Mozilla Firefox, Safari or any Chromium-based browser.
 
 3. If using VS Code, you can use the Live Server extension to run the file on the browser for live reloading.
-4. Click [HERE] to install the Live Server extension and to read instructions on how to use it.
+4. Click [HERE] to install the Live Server extension and to read instructions on how to use it.  
 
 ## Authors
     @keelann95
