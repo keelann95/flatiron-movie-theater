@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Silkscreen:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+    display: grid;
+    place-items:center;
+    border-radius: 10px;
+    
+}
+
+header{
+    width: 90%;
+    height: 100vh;
+    /* border: 1px solid #fff; */
+    display: flex;
+    border-radius: 10px;
+overflow-x: auto;
+}
+
+header .menuSide , 
+.otherSide {
+width: 17%;
+height: 100vh;
+/* border: 1px solid #fff; */
+background:#1f0104 ;
+}
+ header .otherSide{
+    width: 70%;
+    height: 100vh;
+    background: url(https://www.denofgeek.com/wp-content/uploads/2021/09/money-heist-season-5-tokyo-death-cliffhanger.jpeg?resize=768%2C432);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+    z-index: -1;
+} 
+header .menuSide h1{
+    font-size: 50px;
+    color: #bf6900;
+    margin: 20px 0px 0px 25px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header .menuSide section h2{
+    color: rgb(212, 120, 0);
+    font-size: 30px;
+    font-weight: 300;
+    margin: 50px 0px 0px 15px ;   
+}
+header .menuSide section .cards{
+position: relative;
+width: 100%;
+height: 81vh;
+/* border: 1px solid #fff; */
+margin-top: 10px;
+display: inline-block;
+align-items: center;
+}
+header .menuSide section .cards .card{
+position: absolute;
+/* border: 1px solid #fff; */
+width:190px;
+height: 180px;
+border-radius: 8px;
+margin: 20px 0px 0px 30px;
+background: #000;
+transition: .3s linear;
+display: block;
+
+}
+
+header .menuSide section .cards{
+display: block;
+align-items: normal;
+justify-content: space-around;
+overflow-x: auto;
+height: 81vh;
+
+}
+header .menuSide section .cards div{
+    color: #fff;
+    padding: 2px;
+ display: block;
+ height: 25vh;
+
+    }
+    header .menuSide section .cards .card img{
+    width: 187px;
+    height: 177px;
+    border-radius: 5%;
+    
+        }
+
+        header .menuSide section .cards .card:hover{
+        transform: scale(1.2);
+        margin: 0 3;
+                }
+        header .filmCard{
+display: block;
+margin-bottom: 20px;
+        }
+
+
+        header .filmTitle{
+margin-left: 10px;
+        }
+        header .menuSide section .cards .card .filmCard div  .filmTitle{
+            display: block;
+            color: #1f0104;
+        }
+
+ /* styling the other side */
+
+ header .otherSide #filmCardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: wheat;
+  font-weight: 00;
+  font-style: italic;
+  font-size: 20px;
+  /* margin-left: 70px; */
+  overflow-x: auto;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  padding:20px;
+  height: 87vh;
+  padding-top: 200px;
+
+
+     }
+     header .otherSide #filmCardContainer .Card {
+        display: grid;
+        grid: row 50px; ;
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+         }
+       
+ header .otherSide #filmCardContainer .Card img{
+width: 150px;
+ }
+
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ nav h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+ }
