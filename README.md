@@ -51,7 +51,7 @@ To use this repo, follow these steps:
 
 3. Clone the repository by running the following command:
 
-       git clone https://github.com/keelann95/flatiron-movie-theater 
+       git clone https://github.com/keelann95/flatiron-movie-theater
 
 4. Change directory to the repo folder:
 
@@ -71,7 +71,7 @@ To use this repo, follow these steps:
 
 4. Remember to replace your username when cloning.
 
-        git clone https://github.com/keelann95/flatiron-movie-theater 
+        git clone  https://github.com/keelann95/flatiron-movie-theater
 
 ## Running the application locally
 1. Open the integrated terminal in your code editor and run json-server:
