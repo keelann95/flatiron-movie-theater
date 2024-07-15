@@ -22,7 +22,7 @@ header{
     /* border: 1px solid #fff; */
     display: flex;
     border-radius: 10px;
-overflow-x: auto;
+
 }
 
 header .menuSide , 
@@ -129,13 +129,15 @@ margin-left: 10px;
   font-weight: 00;
   font-style: italic;
   font-size: 20px;
-  /* margin-left: 70px; */
-  overflow-x: auto;
+  margin-left: 70px;
   padding-bottom: 10px;
   justify-content: space-around;
   padding:20px;
-  height: 87vh;
-  padding-top: 200px;
+  height: 840px;
+  /* padding-top: 200px; */
+  /* margin-top: auto; */
+  z-index: -1;
+  overflow-x: auto;
 
 
      }
@@ -147,6 +149,7 @@ margin-left: 10px;
         border: 1px solid #fff;
         border-radius: 8px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        
          }
        
  header .otherSide #filmCardContainer .Card img{
